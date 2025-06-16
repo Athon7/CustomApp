@@ -1,0 +1,496 @@
+{
+    "travel_data": {
+        "bus": [
+        {
+            "company": "RedBus",
+            "available_seats": 14,
+            "origin": "Mumbai",
+            "destination": "Goa",
+            "ticket_price": 1099,
+            "seat_type": "Sleeper AC",
+            "departure_time": "20:00:00"
+        },
+        {
+            "company": "VRL Travels",
+            "available_seats": 22,
+            "origin": "Bengaluru",
+            "destination": "Chennai",
+            "ticket_price": 799,
+            "seat_type": "Seater AC",
+            "departure_time": "21:30:00"
+        },
+        {
+            "company": "SRS Travels",
+            "available_seats": 11,
+            "origin": "Hyderabad",
+            "destination": "Mumbai",
+            "ticket_price": 1230,
+            "seat_type": "Sleeper Non-AC",
+            "departure_time": "19:00:00"
+        },
+        {
+            "company": "Parveen Travels",
+            "available_seats": 25,
+            "origin": "Chennai",
+            "destination": "Bhopal",
+            "ticket_price": 1750,
+            "seat_type": "Sleeper AC",
+            "departure_time": "17:45:00"
+        },
+        {
+            "company": "GreenLine",
+            "available_seats": 30,
+            "origin": "Ahmedabad",
+            "destination": "Goa",
+            "ticket_price": 1400,
+            "seat_type": "Volvo AC",
+            "departure_time": "21:00:00"
+        },
+        {
+            "company": "Kallada Travels",
+            "available_seats": 18,
+            "origin": "Bengaluru",
+            "destination": "Thiruvananthapuram",
+            "ticket_price": 1890,
+            "seat_type": "Sleeper AC",
+            "departure_time": "19:30:00"
+        },
+        {
+            "company": "Royal Cruiser",
+            "available_seats": 20,
+            "origin": "Calcutta",
+            "destination": "Bhubaneshwar",
+            "ticket_price": 1199,
+            "seat_type": "Seater AC",
+            "departure_time": "20:45:00"
+        },
+        {
+            "company": "Orange Travels",
+            "available_seats": 17,
+            "origin": "Hyderabad",
+            "destination": "Bengaluru",
+            "ticket_price": 1049,
+            "seat_type": "Sleeper AC",
+            "departure_time": "22:10:00"
+        },
+        {
+            "company": "Patel Travels",
+            "available_seats": 29,
+            "origin": "Ahmedabad",
+            "destination": "Mumbai",
+            "ticket_price": 950,
+            "seat_type": "Non-AC Seater",
+            "departure_time": "23:00:00"
+        },
+        {
+            "company": "Saini Travels",
+            "available_seats": 12,
+            "origin": "Chennai",
+            "destination": "Goa",
+            "ticket_price": 1450,
+            "seat_type": "AC Seater",
+            "departure_time": "16:00:00"
+        },
+        {
+            "company": "Sharma Travels",
+            "available_seats": 16,
+            "origin": "Mumbai",
+            "destination": "Hyderabad",
+            "ticket_price": 1270,
+            "seat_type": "Sleeper AC",
+            "departure_time": "22:00:00"
+        },
+        {
+            "company": "Neeta Travels",
+            "available_seats": 18,
+            "origin": "Goa",
+            "destination": "Mumbai",
+            "ticket_price": 1099,
+            "seat_type": "Sleeper Non-AC",
+            "departure_time": "21:00:00"
+        },
+        {
+            "company": "Ideal Travels",
+            "available_seats": 27,
+            "origin": "Bengaluru",
+            "destination": "Sikkim",
+            "ticket_price": 2140,
+            "seat_type": "Volvo AC",
+            "departure_time": "21:45:00"
+        },
+        {
+            "company": "JBT Travels",
+            "available_seats": 15,
+            "origin": "Bhopal",
+            "destination": "Amritsar",
+            "ticket_price": 1850,
+            "seat_type": "AC Seater",
+            "departure_time": "19:00:00"
+        },
+        {
+            "company": "TravelsIndia",
+            "available_seats": 20,
+            "origin": "Thiruvananthapuram",
+            "destination": "Chennai",
+            "ticket_price": 1499,
+            "seat_type": "Sleeper AC",
+            "departure_time": "23:00:00"
+        },
+        {
+            "company": "ZingGo Travels",
+            "available_seats": 23,
+            "origin": "Mumbai",
+            "destination": "Bengaluru",
+            "ticket_price": 1199,
+            "seat_type": "AC Seater",
+            "departure_time": "08:00:00"
+        },
+        {
+            "company": "BlueLine Express",
+            "available_seats": 19,
+            "origin": "Hyderabad",
+            "destination": "Ahmedabad",
+            "ticket_price": 1350,
+            "seat_type": "Sleeper AC",
+            "departure_time": "21:00:00"
+        },
+        {
+            "company": "Sikkim Travels",
+            "available_seats": 16,
+            "origin": "Sikkim",
+            "destination": "Kolkata",
+            "ticket_price": 1750,
+            "seat_type": "Semi-Sleeper AC",
+            "departure_time": "18:15:00"
+        }
+        ],
+        "airplane": [
+        {
+            "company": "IndiGo",
+            "available_seats": 65,
+            "origin": "Bengaluru",
+            "destination": "Kashmir",
+            "ticket_price": 11099,
+            "seat_type": "Economy",
+            "departure_time": "08:10:00"
+        },
+        {
+            "company": "Air India",
+            "available_seats": 22,
+            "origin": "Hyderabad",
+            "destination": "Amritsar",
+            "ticket_price": 7650,
+            "seat_type": "Business",
+            "departure_time": "14:35:00"
+        },
+        {
+            "company": "SpiceJet",
+            "available_seats": 80,
+            "origin": "Chennai",
+            "destination": "Thiruvananthapuram",
+            "ticket_price": 4600,
+            "seat_type": "Economy",
+            "departure_time": "09:30:00"
+        },
+        {
+            "company": "Vistara",
+            "available_seats": 50,
+            "origin": "Mumbai",
+            "destination": "Hyderabad",
+            "ticket_price": 9900,
+            "seat_type": "Premium Economy",
+            "departure_time": "12:50:00"
+        },
+        {
+            "company": "GoAir",
+            "available_seats": 48,
+            "origin": "Bhubaneshwar",
+            "destination": "Calcutta",
+            "ticket_price": 3900,
+            "seat_type": "Economy",
+            "departure_time": "06:00:00"
+        },
+        {
+            "company": "AirAsia",
+            "available_seats": 26,
+            "origin": "Bengaluru",
+            "destination": "Goa",
+            "ticket_price": 4200,
+            "seat_type": "Economy",
+            "departure_time": "16:20:00"
+        },
+        {
+            "company": "Vistara",
+            "available_seats": 14,
+            "origin": "Amritsar",
+            "destination": "Mumbai",
+            "ticket_price": 7200,
+            "seat_type": "Business",
+            "departure_time": "19:05:00"
+        },
+        {
+            "company": "Go First",
+            "available_seats": 33,
+            "origin": "Mumbai",
+            "destination": "Ahmedabad",
+            "ticket_price": 4000,
+            "seat_type": "Economy",
+            "departure_time": "17:25:00"
+        },
+        {
+            "company": "IndiGo",
+            "available_seats": 29,
+            "origin": "Hyderabad",
+            "destination": "Goa",
+            "ticket_price": 4500,
+            "seat_type": "Economy",
+            "departure_time": "15:10:00"
+        },
+        {
+            "company": "Air India",
+            "available_seats": 19,
+            "origin": "Ahmedabad",
+            "destination": "Chennai",
+            "ticket_price": 7000,
+            "seat_type": "Business",
+            "departure_time": "13:20:00"
+        },
+        {
+            "company": "SpiceJet",
+            "available_seats": 25,
+            "origin": "Kolkata",
+            "destination": "Bhubaneshwar",
+            "ticket_price": 5100,
+            "seat_type": "Premium Economy",
+            "departure_time": "17:10:00"
+        },
+        {
+            "company": "Go First",
+            "available_seats": 27,
+            "origin": "Chennai",
+            "destination": "Mumbai",
+            "ticket_price": 5700,
+            "seat_type": "Economy",
+            "departure_time": "09:45:00"
+        },
+        {
+            "company": "IndiGo",
+            "available_seats": 21,
+            "origin": "Thiruvananthapuram",
+            "destination": "Bengaluru",
+            "ticket_price": 3900,
+            "seat_type": "Economy",
+            "departure_time": "11:00:00"
+        },
+        {
+            "company": "Air India",
+            "available_seats": 12,
+            "origin": "Goa",
+            "destination": "Calcutta",
+            "ticket_price": 8100,
+            "seat_type": "Business",
+            "departure_time": "15:55:00"
+        },
+        {
+            "company": "Jet Airways",
+            "available_seats": 15,
+            "origin": "Bhopal",
+            "destination": "Delhi",
+            "ticket_price": 6800,
+            "seat_type": "Premium Economy",
+            "departure_time": "18:20:00"
+        },
+        {
+            "company": "Vistara",
+            "available_seats": 13,
+            "origin": "Sikkim",
+            "destination": "Delhi",
+            "ticket_price": 8800,
+            "seat_type": "Economy",
+            "departure_time": "20:10:00"
+        },
+        {
+            "company": "Go First",
+            "available_seats": 10,
+            "origin": "Mumbai",
+            "destination": "Hyderabad",
+            "ticket_price": 4900,
+            "seat_type": "Economy",
+            "departure_time": "11:25:00"
+        },
+        {
+            "company": "IndiGo",
+            "available_seats": 11,
+            "origin": "Kashmir",
+            "destination": "Goa",
+            "ticket_price": 12500,
+            "seat_type": "Business",
+            "departure_time": "14:25:00"
+        }
+        ],
+        "train": [
+        {
+            "company": "Indian Railways",
+            "available_seats": 120,
+            "origin": "Calcutta",
+            "destination": "Bhopal",
+            "ticket_price": 1845,
+            "seat_type": "2A (AC 2 Tier)",
+            "departure_time": "15:10:00"
+        },
+        {
+            "company": "Shatabdi Express",
+            "available_seats": 88,
+            "origin": "Delhi",
+            "destination": "Amritsar",
+            "ticket_price": 1300,
+            "seat_type": "Chair Car",
+            "departure_time": "14:05:00"
+        },
+        {
+            "company": "Konkan Railways",
+            "available_seats": 98,
+            "origin": "Goa",
+            "destination": "Mumbai",
+            "ticket_price": 1100,
+            "seat_type": "SL (Sleeper)",
+            "departure_time": "22:30:00"
+        },
+        {
+            "company": "Rajdhani Express",
+            "available_seats": 65,
+            "origin": "Ahmedabad",
+            "destination": "Delhi",
+            "ticket_price": 2100,
+            "seat_type": "1A (AC First Class)",
+            "departure_time": "19:30:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 90,
+            "origin": "Sikkim",
+            "destination": "Bhubaneshwar",
+            "ticket_price": 1645,
+            "seat_type": "3A (AC 3 Tier)",
+            "departure_time": "12:20:00"
+        },
+        {
+            "company": "Duronto Express",
+            "available_seats": 52,
+            "origin": "Mumbai",
+            "destination": "Kolkata",
+            "ticket_price": 2200,
+            "seat_type": "2A (AC 2 Tier)",
+            "departure_time": "17:45:00"
+        },
+        {
+            "company": "Tejas Express",
+            "available_seats": 47,
+            "origin": "Chennai",
+            "destination": "Goa",
+            "ticket_price": 1850,
+            "seat_type": "AC Chair Car",
+            "departure_time": "08:35:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 100,
+            "origin": "Hyderabad",
+            "destination": "Bangalore",
+            "ticket_price": 950,
+            "seat_type": "SL (Sleeper)",
+            "departure_time": "21:40:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 80,
+            "origin": "Chennai",
+            "destination": "Bhubaneshwar",
+            "ticket_price": 1360,
+            "seat_type": "3A (AC 3 Tier)",
+            "departure_time": "09:55:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 77,
+            "origin": "Bengaluru",
+            "destination": "Ahmedabad",
+            "ticket_price": 1480,
+            "seat_type": "2A (AC 2 Tier)",
+            "departure_time": "13:45:00"
+        },
+        {
+            "company": "Sampark Kranti",
+            "available_seats": 48,
+            "origin": "Bhopal",
+            "destination": "Delhi",
+            "ticket_price": 1250,
+            "seat_type": "SL (Sleeper)",
+            "departure_time": "23:00:00"
+        },
+        {
+            "company": "Garib Rath",
+            "available_seats": 58,
+            "origin": "Goa",
+            "destination": "Hyderabad",
+            "ticket_price": 1050,
+            "seat_type": "3A (AC 3 Tier)",
+            "departure_time": "19:00:00"
+        },
+        {
+            "company": "Himalayan Express",
+            "available_seats": 43,
+            "origin": "Kolkata",
+            "destination": "Sikkim",
+            "ticket_price": 1900,
+            "seat_type": "2A (AC 2 Tier)",
+            "departure_time": "08:00:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 61,
+            "origin": "Thiruvananthapuram",
+            "destination": "Chennai",
+            "ticket_price": 1350,
+            "seat_type": "2A (AC 2 Tier)",
+            "departure_time": "21:15:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 88,
+            "origin": "Ahmedabad",
+            "destination": "Hyderabad",
+            "ticket_price": 1520,
+            "seat_type": "2A (AC 2 Tier)",
+            "departure_time": "05:45:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 104,
+            "origin": "Mumbai",
+            "destination": "Hyderabad",
+            "ticket_price": 1990,
+            "seat_type": "3A (AC 3 Tier)",
+            "departure_time": "12:30:00"
+        },
+        {
+            "company": "Punjab Express",
+            "available_seats": 68,
+            "origin": "Amritsar",
+            "destination": "Delhi",
+            "ticket_price": 1200,
+            "seat_type": "SL (Sleeper)",
+            "departure_time": "23:00:00"
+        },
+        {
+            "company": "Indian Railways",
+            "available_seats": 111,
+            "origin": "Sikkim",
+            "destination": "Thiruvananthapuram",
+            "ticket_price": 2875,
+            "seat_type": "1A (AC First Class)",
+            "departure_time": "14:00:00"
+        }
+        ]
+    }
+}

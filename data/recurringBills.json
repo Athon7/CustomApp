@@ -1,0 +1,120 @@
+{
+    "bill_data": 
+    {
+        "mobile_recharge_bill": {
+            "data": [{
+                "planid":1,
+                "datasize":"2GB/day",
+                "duration_days": 30,
+                "amount": 200
+            },
+            {
+                "planid":2,
+                "datasize":"1GB/day",
+                "duration_days": 30,
+                "amount": 100
+            },
+            {
+                "planid":3,
+                "datasize":"2.5GB/day",
+                "duration_days": 90,
+                "amount": 150
+            }],
+            "talktime": [{
+                "planid":1,
+                "time":"unlimited",
+                "duration_days": 365,
+                "amount": 2000
+            },
+            {
+                "planid":2,
+                "datasize":"unlimited",
+                "duration_days": 30,
+                "amount": 200
+            },
+            {
+                "planid":3,
+                "datasize":"unlimited",
+                "duration_days": 75,
+                "amount": 375
+            }],
+            "combo": [{
+                "planid":1,
+                "time":"unlimited",
+                "datasize": "1GB/day",
+                "duration_days": 365,
+                "amount": 2500
+            },
+            {
+                "planid":2,
+                "time":"unlimited",
+                "datasize":"2GB/day",
+                "duration_days": 90,
+                "amount": 500
+            },
+            {
+                "planid":3,
+                "time":"unlimited",
+                "datasize":"3GB/day",
+                "duration_days": 75,
+                "amount": 700
+            }]
+        },
+        "credit_card_bill": [{
+            "cardid": "platinum345",
+            "bank":"hdfp",
+            "interest": 10,
+            "amount": 2300
+        },
+        {
+            "cardid": "gold5",
+            "bank":"axil",
+            "interest": 8,
+            "amount": 230
+        },
+        {
+            "cardid": "solitaire",
+            "bank":"icicm",
+            "interest": 9,
+            "amount": 1200
+        }],
+        "insurance_bill": [{
+            "planid": 1,
+            "insurance_type": "vehicle",
+            "type": "4Wheeler",
+            "company": "XYZ",
+            "duration": 365,
+            "amount": 5000 
+        },
+        {
+            "planid": 2,
+            "insurance_type": "vehicle",
+            "type": "2Wheeler",
+            "company": "XYM",
+            "duration": 365,
+            "amount": 1000 
+        },
+        {
+            "planid": 3,
+            "insurance_type": "health",
+            "type": "2year",
+            "company": "XYM",
+            "duration": 730,
+            "amount": 10000 
+        }]
+    },
+    "current_bills": {
+        "credit_card_bill": {
+            "cardid": "platinum35",
+            "month": "may",
+            "amount": 5000,
+            "expiration_date": "25thmay2025"
+        },
+        "insurance_bill": {
+            "cardid": "platinum35",
+            "month": "may",
+            "amount": 5000,
+            "expiration_date": "25thmay2025"
+        }
+    }
+}

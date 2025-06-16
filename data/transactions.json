@@ -1,0 +1,25 @@
+{
+    "transactions": [
+        {
+            "transaction_id": 1,
+            "amount_paid": 250,
+            "service": "foodDelivery",
+            "details": {
+                "restaurant_name": "FoodieSpotFave5",
+                "items": {
+                    "paneer masala": 1,
+                    "chapathi": 2
+                }
+            }
+        },
+        {
+            "transaction_id": 2,
+            "amount_paid": 500,
+            "service": "recurringBills",
+            "details": {
+                "bill_name": "MobileRecharge",
+                "plan": "DataTopUp500"
+            }
+        }
+    ]
+}

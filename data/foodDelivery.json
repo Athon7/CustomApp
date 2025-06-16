@@ -1,0 +1,833 @@
+{
+    "restaurant_data": [
+        {
+            "name": "FoodieSpotFave1",
+            "image": "./images/1/1.jpg",
+            "capacity": 80,
+            "location": "California USA",
+            "postalcode": "Y67JK9",
+            "cuisines": [
+                "American",
+                "Mexican",
+                "Indian"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "idli": 50,
+                    "upma": 40
+                },
+                "Lunch": {
+                    "main_course": {
+                        "paneer masala": 210,
+                        "dum aloo": 220
+                    },
+                    "rice": {
+                        "plain rice": 150,
+                        "ghee rice": 200
+                    },
+                    "roti": {
+                        "chapathi": 20,
+                        "naan": 40
+                    },
+                    "desert": {
+                        "dekkf": 100
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201"
+            ],
+            "description": "Nice cozy place to spend your evenings with great cuisines.",
+            "rating": 4.5,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 4,
+                    "comment": "Best food served! Thanks for the great meal."
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Spent the best time with folks and enjoyed the tasty meal!"
+                }
+            },
+            "occassion": [
+                "Birthday Celebration",
+                "Office Outing",
+                "Medium Family Celebrations",
+                "Comfort Food",
+                "Budget Meals",
+                "Fine Dining",
+                "Casual Dining",
+                "No Alcohol",
+                "Buffet"
+            ],
+            "keywords": [
+                "Pet Friendly",
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "expensive"
+            ]
+        },
+        {
+            "name": "FoodieSpotFave2",
+            "image": "./images/2/1.jpg",
+            "capacity": 80,
+            "location": "California USA",
+            "postalcode": "Y67JK9",
+            "cuisines": [
+                "American",
+                "Mexican",
+                "Indian"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "idli": 50,
+                    "upma": 40
+                },
+                "Lunch": {
+                    "main_course": {
+                        "paneer masala": 210,
+                        "dum aloo": 220
+                    },
+                    "rice": {
+                        "plain rice": 150,
+                        "ghee rice": 200
+                    },
+                    "roti": {
+                        "chapathi": 20,
+                        "naan": 40
+                    },
+                    "desert": {
+                        "dekkf": 100
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201"
+            ],
+            "description": "Nice cozy place to spend your evenings with great cuisines.",
+            "rating": 4.5,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 4,
+                    "comment": "Best food served! Thanks for the great meal."
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Spent the best time with folks and enjoyed the tasty meal!"
+                }
+            },
+            "occassion": [
+                "Birthday Celebration",
+                "Office Outing",
+                "Medium Family Celebrations",
+                "Comfort Food",
+                "Budget Meals",
+                "Fine Dining",
+                "Casual Dining",
+                "No Alcohol",
+                "Buffet"
+            ],
+            "keywords": [
+                "Pet Friendly",
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "expensive"
+            ]
+        },
+        {
+            "name": "FoodieSpotFave3",
+            "image": "./images/3/1.jpg",
+            "capacity": 80,
+            "location": "California USA",
+            "postalcode": "Y67JK9",
+            "cuisines": [
+                "American",
+                "Mexican",
+                "Indian"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "idli": 50,
+                    "upma": 40
+                },
+                "Lunch": {
+                    "main_course": {
+                        "paneer masala": 210,
+                        "dum aloo": 220
+                    },
+                    "rice": {
+                        "plain rice": 150,
+                        "ghee rice": 200
+                    },
+                    "roti": {
+                        "chapathi": 20,
+                        "naan": 40
+                    },
+                    "desert": {
+                        "dekkf": 100
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201"
+            ],
+            "description": "Nice cozy place to spend your evenings with great cuisines.",
+            "rating": 4.5,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 4,
+                    "comment": "Best food served! Thanks for the great meal."
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Spent the best time with folks and enjoyed the tasty meal!"
+                }
+            },
+            "occassion": [
+                "Birthday Celebration",
+                "Office Outing",
+                "Medium Family Celebrations",
+                "Comfort Food",
+                "Budget Meals",
+                "Fine Dining",
+                "Casual Dining",
+                "No Alcohol",
+                "Buffet"
+            ],
+            "keywords": [
+                "Pet Friendly",
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "expensive"
+            ]
+        },
+        {
+            "name": "FoodieSpotFave4",
+            "image": "./images/4/1.jpg",
+            "capacity": 80,
+            "location": "California USA",
+            "postalcode": "Y67JK9",
+            "cuisines": [
+                "American",
+                "Mexican",
+                "Indian"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "idli": 50,
+                    "upma": 40
+                },
+                "Lunch": {
+                    "main_course": {
+                        "paneer masala": 210,
+                        "dum aloo": 220
+                    },
+                    "rice": {
+                        "plain rice": 150,
+                        "ghee rice": 200
+                    },
+                    "roti": {
+                        "chapathi": 20,
+                        "naan": 40
+                    },
+                    "desert": {
+                        "dekkf": 100
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201"
+            ],
+            "description": "Nice cozy place to spend your evenings with great cuisines.",
+            "rating": 4.5,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 4,
+                    "comment": "Best food served! Thanks for the great meal."
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Spent the best time with folks and enjoyed the tasty meal!"
+                }
+            },
+            "occassion": [
+                "Birthday Celebration",
+                "Office Outing",
+                "Medium Family Celebrations",
+                "Comfort Food",
+                "Budget Meals",
+                "Fine Dining",
+                "Casual Dining",
+                "No Alcohol",
+                "Buffet"
+            ],
+            "keywords": [
+                "Pet Friendly",
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "expensive"
+            ]
+        },
+        {
+            "name": "FoodieSpotFave5",
+            "image": "./images/5/1.jpg",
+            "capacity": 80,
+            "location": "California USA",
+            "postalcode": "Y67JK9",
+            "cuisines": [
+                "American",
+                "Mexican",
+                "Indian"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "idli": 50,
+                    "upma": 40
+                },
+                "Lunch": {
+                    "main_course": {
+                        "paneer masala": 210,
+                        "dum aloo": 220
+                    },
+                    "rice": {
+                        "plain rice": 150,
+                        "ghee rice": 200
+                    },
+                    "roti": {
+                        "chapathi": 20,
+                        "naan": 40
+                    },
+                    "desert": {
+                        "dekkf": 100
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201"
+            ],
+            "description": "Nice cozy place to spend your evenings with great cuisines.",
+            "rating": 4.5,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 4,
+                    "comment": "Best food served! Thanks for the great meal."
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Spent the best time with folks and enjoyed the tasty meal!"
+                }
+            },
+            "occassion": [
+                "Birthday Celebration",
+                "Office Outing",
+                "Medium Family Celebrations",
+                "Comfort Food",
+                "Budget Meals",
+                "Fine Dining",
+                "Casual Dining",
+                "No Alcohol",
+                "Buffet"
+            ],
+            "keywords": [
+                "Pet Friendly",
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "expensive"
+            ]
+        },
+        {
+            "name": "FoodieSpot6",
+            "image": "./images/6/1.jpg",
+            "capacity": 300,
+            "location": "246 N Canon Dr Fl 3 Beverly Hills, CA 90210",
+            "postalcode": "90210",
+            "cuisines": [
+                "American",
+                "Mexican",
+                "French"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 10,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "bread basket": 450,
+                    "garlic mashed potato": 410
+                },
+                "Lunch": {
+                    "main_course": {
+                        "seafood tower": 610,
+                        "lobster mash": 720
+                    },
+                    "soups": {
+                        "french onion soup": 450,
+                        "american fresh veg soup": 300
+                    },
+                    "desert": {
+                        "butter cake": 500
+                    }
+                }
+            },
+            "Offers": [
+                "101"
+            ],
+            "description": "An Unparalleled Dining Experience FoodieSpot's collection of sophisticated steakhouses and Ocean Club Seafood locations are recognized for their combination of world-class service, highly acclaimed cuisine and live entertainment in an elegant, energetic atmosphere.",
+            "rating": 4.9,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 4.9,
+                    "comment": "A beautiful place to have a delicious meal!"
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Dishes made to perfection."
+                }
+            },
+            "occassion": [
+                "Office Outing",
+                "Comfort Food",
+                "Fine Dining",
+                "Buffet"
+            ],
+            "keywords": [
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "expensive"
+            ]
+        },
+        {
+            "name": "FoodieSpotFave7",
+            "image": "./images/7/1.jpg",
+            "capacity": 200,
+            "location": "23064 Three Notch Rd Suite 101, California, MD 23064",
+            "postalcode": "23064",
+            "cuisines": [
+                "American"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 40,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "ittalian black truffle": 550,
+                    "sashimi": 400
+                },
+                "Lunch": {
+                    "main_course": {
+                        "salt-roasted santa barbara spot prawns": 710,
+                        "uni egg": 900
+                    },
+                    "desert": {
+                        "house-made hawaiian chocolate": 400
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201"
+            ],
+            "description": "Nice cozy place to spend your evenings with great cuisines.",
+            "rating": 4.5,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 4,
+                    "comment": "A real fine dinning experience."
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Dishes crafted to excellence!"
+                }
+            },
+            "occassion": [
+                "Medium Family Celebrations",
+                "Fine Dining",
+                "Buffet"
+            ],
+            "keywords": [
+                "Pet Friendly",
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "expensive"
+            ]
+        },
+        {
+            "name": "FoodieSpot8",
+            "image": "./images/8/1.jpg",
+            "capacity": 40,
+            "location": "45310 Alton Lane, California, MD 20710",
+            "postalcode": "20710",
+            "cuisines": [
+                "American",
+                "Mexican"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "hashbrown": 90,
+                    "egg muffin": 70
+                },
+                "Lunch": {
+                    "burger": {
+                        "hamburger": 110,
+                        "cheese burger": 120
+                    },
+                    "sandwiches": {
+                        "crispy chicken sandwich": 150,
+                        "fillet o fish": 200
+                    },
+                    "desert": {
+                        "vanilla shake": 90
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201",
+                "401"
+            ],
+            "description": "serves a variety of menu options made with quality ingredients to millions of customers every day.",
+            "rating": 4.9,
+            "reviews": {
+                "1": {
+                    "restaurant_rating": 3.2,
+                    "comment": "Best food served to a million people!"
+                },
+                "2": {
+                    "restaurant_rating": 4.5,
+                    "comment": "Loved the food!"
+                }
+            },
+            "occassion": [
+                "Birthday Celebration",
+                "Comfort Food",
+                "Budget Meals",
+                "Casual Dining"
+            ],
+            "keywords": [
+                "Outdoor Seating",
+                "Wifi",
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "moderate"
+            ]
+        },
+        {
+            "name": "FoodieSpot9",
+            "image": "./images/9/1.jpg",
+            "capacity": 40,
+            "location": "New house road, California, DE 20622",
+            "postalcode": "20622",
+            "cuisines": [
+                "American",
+                "Italian"
+            ],
+            "food_type": [
+                "Vegetarian",
+                "Non-Vegetarian",
+                "Vegan"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "calamari": 50,
+                    "uptoasted ravioli": 40
+                },
+                "Lunch": {
+                    "main_course": {
+                        "eggplant parmigiana": 210,
+                        "spaghetti": 120,
+                        "cheese pizza": 170
+                    },
+                    "desert": {
+                        "tiramisu": 100
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201",
+                "301"
+            ],
+            "description": "Enjoy abundant portions of classic entrees the whole family craves like the Tour of Italy.Gather together with the people you love over a meal worth sharing at Olive Garden. When you're here, you're family in a quiet and peaceful home.",
+            "rating": 4.5,
+            "reviews": {
+                "2": {
+                    "restaurant_rating": 3.7,
+                    "comment": "Nice and quiet place to have a peaceful meal"
+                },
+                "3": {
+                    "restaurant_rating": 4.2,
+                    "comment": "Inexpensive Tasty meal!"
+                }
+            },
+            "occassion": [
+                "Comfort Food",
+                "Budget Meals",
+                "Casual Dining",
+                "No Alcohol"
+            ],
+            "keywords": [
+                "Wheelchair"
+            ],
+            "budget_type": [
+                "moderate"
+            ]
+        },
+        {
+            "name": "FoodieSpot10",
+            "image": "./images/10/1.jpg",
+            "capacity": 80,
+            "location": "45265 Abell House Ln, California, MD 20619,California USA",
+            "postalcode": "20619",
+            "cuisines": [
+                "French"
+            ],
+            "food_type": [
+                "vegetarian",
+                "non-Vegetarian"
+            ],
+            "table_type": {
+                "2Seater": 4,
+                "4Seater": 10,
+                "20Seater": 5,
+                "10Seater": 5
+            },
+            "meal_type": [
+                "breakfast",
+                "lunch",
+                "dinner"
+            ],
+            "menu": {
+                "Breakfast": {
+                    "butter croissant": 150,
+                    "fruit plate": 40,
+                    "crepes with honey": 200
+                },
+                "Lunch": {
+                    "salad": {
+                        "watermelon feta salad": 120,
+                        "panzanella salad": 70
+                    },
+                    "soups": {
+                        "soupe de jour": 150
+                    },
+                    "sandwiches": {
+                        "turkey pesto": 80,
+                        "poulet": 60
+                    },
+                    "desert": {
+                        "eggplant parmigiana": 100
+                    }
+                }
+            },
+            "Offers": [
+                "101",
+                "201"
+            ],
+            "description": "Definitely one of the coolest restaurants in town! The incredibly high ceilings, chic interior design, two large glass-fronted wine cabinets are really impressive. The menu features French-inspired cuisine, with an additional dinner deal available daily and brunch served every Sunday. The rooftop terrace has to be the highlight! Really nice place to get together with family and friends to celebrate.",
+            "rating": 4.5,
+            "reviews": {
+                "3": {
+                    "restaurant_rating": 3.9,
+                    "comment": "Loved the place!"
+                },
+                "8": {
+                    "restaurant_rating": 4.0,
+                    "comment": "Very occassion friendly"
+                }
+            },
+            "occassion": [
+                "birthday celebration",
+                "office outing",
+                "medium family celebrations",
+                "buffet"
+            ],
+            "keywords": [
+                "pet friendly"
+            ],
+            "budget_type": [
+                "expensive",
+                "moderate"
+            ]
+        }
+    ],
+    "offer_data": {
+        "101": {
+            "name": "FoodieSpotDinner10",
+            "percentage_off": 10,
+            "meal_type": "Dinner"
+        },
+        "201": {
+            "name": "FoodieSpotDinner15",
+            "percentage_off": 15,
+            "meal_type": "Dinner"
+        },
+        "301": {
+            "name": "FoodieSpotBreakfast20",
+            "percentage_off": 25,
+            "meal_type": "Breakfast"
+        },
+        "401": {
+            "name": "FoodieSpotLunch15",
+            "percentage_off": 15,
+            "meal_type": "Lunch"
+        }
+    }
+}
