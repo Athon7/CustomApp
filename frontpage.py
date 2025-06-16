@@ -16,7 +16,7 @@ with container3:
 with container2:
     ## Title
     h3, h4 = st.columns([0.6,0.4])
-    h3.image("C:/Users/akd77/Documents/code/ManagePays/assets/title.png")
+    h3.image("./assets/title.gif")
     with h4:
         container2_1 = st.container(border=False, height=200)
         container2_2 = st.container(border=False, height=200)
