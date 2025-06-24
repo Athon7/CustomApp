@@ -6,6 +6,7 @@ import asyncio
 h1, h2, h3, h4 = subpageLayout("./assets/travelBooking.png", "Book your Tickets!")
 with h2:
     st.session_state.clearcache = True
+    st.session_state.messages = [{"role":"assistant", "content":"Where do you want to travel to?"}]
     container1, container2 = asyncio.run(chat("Where do you want to travel to?", "travel_booking"))
 
 with h4:
