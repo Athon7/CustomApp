@@ -6,7 +6,7 @@ async def chat(initialtext, category):
     container1 = st.container(border=False, height=430)
     container2 = st.container(border=False, height=70)
 
-    if "messages" not in st.session_state:
+    if "messages" not in st.session_state or st.session_state.clearcache:
         st.session_state.messages = [{"role": "assistant", "content": initialtext}]
         st.session_state.clearcache = False
 
