@@ -11,11 +11,14 @@ async def chat(initialtext, category):
         st.session_state.clearcache = False
 
     with container2:
-        if category=="food_delivery":
+        if st.session_state.apikey:
+            init_prompt = st.chat_input("How can I help you?")
+        elif category=="food_delivery":
             options = ['I want to order Italian food in California',
                         'Get me the menu for FoodieSpot9',
                         'I want to eat EggPlant parmagiana',
-                        'Yes I want to proceed with my order of EggPlant parmagiana']
+                        'I want to add 2 items of Spaghetti',
+                        'Yes I want to proceed with my order for payment']
             init_prompt = st.selectbox(options=options,
                 index=None,
                 label="",
@@ -34,15 +37,15 @@ async def chat(initialtext, category):
             Ravioli: $40\n\n**Lunch**\n- Main Course:\n    - Eggplant Parmigiana: $210\n  - Spaghetti: $120\n    - Cheese 
             Pizza: $170\n- Dessert:\n    - Tiramisu: $100\n\nWhat would 
             you like to order from FoodieSpot9?""", 
-            "[{'name': 'FoodieSpot9', 'selected_items': [['eggplant parmigiana', 210]], 'amount': 210}]", 
-            """Great! To proceed with your order, please let me know which specific Italian dishes you'd 
-            like to order from FoodieSpot9. Here are some options from their menu:\n\n**Breakfast:**  \n- Calamari  
-            \n- Toasted Ravioli  \n\n**Lunch Main Courses:**  \n- Eggplant Parmigiana  \n- 
-            Spaghetti  \n- Cheese Pizza  \n\n**Dessert:**  \n- Tiramisu  \n\nPlease list the items you’d 
-            like to order."""]
+            "Great! I have added the following to your order:\n\n**Eggplant Parmagiana** (x1) $210\n\nWould you like to proceed with your order?",
+            "I have added Spaghetti to your order. Here is your updated order\n\n**EggPlant Parmagiana** (x1): $210\n**Spaghetti** (x2): $120\n\nWould you like to proceed with your order?",
+            "[{'name': 'FoodieSpot9', 'selected_items': [['eggplant parmigiana', 210], ['spaghetti', 120], ['spaghetti', 120]], 'amount': 450}]"
+            ]
         elif category=="grocery_delivery":
             options = ['I want to order bread, oranges and chips',
                        'I want to order multigrain bread, Tortilla chips and oranges',
+                       'I want one multigrain bread, 2 tortilla chips and 1 pack of oranges',
+                       'I want to remove 1 tortilla chips',
                        'Yes please proceed with my order of multigrain bread, Tortilla chips and oranges']
             init_prompt = st.selectbox(options=options,
                 index=None,
@@ -50,16 +53,21 @@ async def chat(initialtext, category):
                 label_visibility="hidden"
             )
             system_messages = ["""Here are available options from Incart:\n\n**Oranges:**\n- Oranges 
-            (Spain), 1kg, ₹2.49\n\n**Bread:**\n- White Bread (Wonder), 400g, ₹1.99\n- Brown Bread (Modern),
-             400g, ₹2.19\n- Multigrain Bread (Harvest Gold), 400g, ₹2.49\n- Breadsticks (Local Bakery), 
+            (Spain), 1kg, ₹20.49\n\n**Bread:**\n- White Bread (Wonder), 400g, ₹1.99\n- Brown Bread (Modern),
+             400g, ₹2.19\n- Multigrain Bread (Harvest Gold), 400g, ₹29.49\n- Breadsticks (Local Bakery), 
              100g, ₹1.79\n\n**Chips:**\n- Potato Chips (Lays), 150g, ₹2.99\n- Tortilla Chips (Doritos), 
-             200g, ₹3.49\n- Banana Chips (Haldiram), 100g, ₹2.49\n\nPlease select your preferred bread and 
+             200g, ₹30.49\n- Banana Chips (Haldiram), 100g, ₹2.49\n\nPlease select your preferred bread and 
              chips from the above options. Would you like to proceed with all three (oranges, bread, and 
-             chips), or do you want to modify your selection?""", 
-             "[{'name': 'Incart', 'selected_items': [['Multigrain Bread', 50.0], ['Tortilla Chips', 40.0], ['Orange', 120.0]], 'amount': 210.0}]", 
-             "[{'name': 'Incart', 'selected_items': [['Multigrain Bread', 50.0], ['Tortilla Chips', 40.0], ['Orange', 120.0]], 'amount': 210.0}]"]
+             chips), or do you want to modify your selection?""",
+             "Can you let me know the quantities for multigrain bread, tortilla chips and oranges?",
+             "I have added the following to your order:\n\n**Multigrain Bread (Harvest Gold)** (x1): ₹50\n\n**Tortilla Chips (Doritos) (x2)**: ₹40\n\n**Oranges (Spain)** (x1): ₹120\n\nWould you like to proceed with your order?",
+             "I have updated your order:\n\n**Multigrain Bread (Harvest Gold)** (x1): ₹50\n\n**Tortilla Chips (Doritos) (x1)**: ₹40\n\n**Oranges (Spain)** (x1): ₹120\n\nWould you like to proceed with your order?",
+             "[{'name': 'Incart', 'selected_items': [['Multigrain Bread', 50.0], ['Tortilla Chips', 40.0], ['Orange', 120.0]], 'amount': 210.0}]"
+             ]
         elif category=="travel_booking":
             options = ['I want to book travel from Mumbai to Hyderabad',
+                'I want to book the bus',
+                'I want to change the seat type to Non-AC sleeper',
                 'Please book the flight']
             init_prompt = st.selectbox(options=options,
                 index=None,
@@ -72,10 +80,13 @@ async def chat(initialtext, category):
             ₹4900, 10 seats available, departs at 11:25\n\n**Train:**\n- Indian Railways — 3A (AC 3 Tier), 
             ₹1990, 104 seats available, departs at 12:30\n\nPlease let me know which option you’d like to 
             book!""", 
+            "I have booked the following:\n\n**Sharma Travels** — Sleeper AC, ₹1270",
+            "I have updated your booking:\n\n**Sharma Travels** — Sleeper Non-AC, ₹1270",
             "[{'transport_mode': 'airplane', 'origin': 'Mumbai', 'destination': 'Hyderabad', 'seat_type': 'Premium Economy', 'ticket_price': 9900, 'selected_items': [['airplane Premium Economy', 9900]], 'amount': 9900}]"]
         elif category=="recurring_bills":
             options =['I want to recharge my mobile talktime',
-                'I want to pay for the 365 day plan']
+                'I want to pay for the 365 day plan',
+                'Yes I would like to make the payment']
             init_prompt = st.selectbox(options=options,
                 index=None,
                 label="",
@@ -85,15 +96,12 @@ async def chat(initialtext, category):
              talktime, valid for 365 days, ₹2000\n2. **Plan 2:** Unlimited data, valid for 30 days, ₹200\n3. **Plan 3:** 
              Unlimited data, valid for 75 days, ₹375\n\nPlease let me know which plan you 
              would like to choose for your recharge!""", 
+             "I have added the following bill to pay:\n\n**Unlimited talktime** - 365 days (₹2000)\n\nDo you want to proceed with your order?",
              "[{'bill_name': 'mobile_recharge_bill', 'bill_details': '365 day unlimited talktime', 'selected_items': [['365 day unlimited talktime', '2000']], 'amount': '2000'}]"]
 
         instr = 'Hi there! Enter what you want to let me know here.'
-        prompt = st.text_input(
-                instr,
-                value=init_prompt,
-                label_visibility="collapsed",
-                placeholder=instr)
-        # prompt = st.chat_input("How can I help with your payments?")
+        prompt = init_prompt 
+        
     with container1:
         for message in st.session_state.messages:
             with st.chat_message(message["role"]):
@@ -106,17 +114,13 @@ async def chat(initialtext, category):
             
             with st.chat_message("assistant"):
                 writespace = st.empty()
-                if st.session_state.apikey:
-                    time.sleep(7)
-                    response = st.session_state.messages[len(st.session_state.messages)-1].get("content")
-                else:
+                with st.spinner("Generating response...", show_time=False):
                     time.sleep(3)
                     response = system_messages[options.index(init_prompt)]
                 
                 try:
                     response = response.replace("\'",'\"')
                     decodedresp = json.loads(response)
-                    st.markdown(f"response: {response}")
                     if (type(decodedresp)==list):
                         st.session_state.messages = [{"role": "assistant", "content": initialtext}]
                         st.session_state.messages.append({"role":"assistant", "content":str(decodedresp)})
@@ -130,5 +134,5 @@ async def chat(initialtext, category):
                     time.sleep(0.001)
                     writespace.markdown(content)
                 writespace.markdown(content)
-                st.session_state.messages.append({"role":"assistant", "content":str(response)})
+                st.session_state.messages.append({"role":"assistant", "content":str(content)})
     return container1, container2
