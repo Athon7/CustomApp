@@ -11,9 +11,7 @@ async def chat(initialtext, category):
         st.session_state.clearcache = False
 
     with container2:
-        if st.session_state.apikey:
-            init_prompt = st.chat_input("How can I help you?")
-        elif category=="food_delivery":
+        if category=="food_delivery":
             options = ['I want to order Italian food in California',
                         'Get me the menu for FoodieSpot9',
                         'I want to eat EggPlant parmagiana',
