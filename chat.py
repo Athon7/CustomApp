@@ -36,7 +36,7 @@ async def chat(initialtext, category):
             Pizza: $170\n- Dessert:\n    - Tiramisu: $100\n\nWhat would 
             you like to order from FoodieSpot9?""", 
             "Great! I have added the following to your order:\n\n**Eggplant Parmagiana** (x1) $210\n\nWould you like to proceed with your order?",
-            "I have added Spaghetti to your order. Here is your updated order\n\n**EggPlant Parmagiana** (x1): $210\n**Spaghetti** (x2): $120\n\nWould you like to proceed with your order?",
+            "I have added Spaghetti to your order. Here is your updated order\n\n**EggPlant Parmagiana** (x1): $210\n\n**Spaghetti** (x2): $120\n\nWould you like to proceed with your order?",
             "[{'name': 'FoodieSpot9', 'selected_items': [['eggplant parmigiana', 210], ['spaghetti', 120], ['spaghetti', 120]], 'amount': 450}]"
             ]
         elif category=="grocery_delivery":
@@ -80,7 +80,7 @@ async def chat(initialtext, category):
             book!""", 
             "I have booked the following:\n\n**Sharma Travels** — Sleeper AC, ₹1270",
             "I have updated your booking:\n\n**Sharma Travels** — Sleeper Non-AC, ₹1270",
-            "[{'transport_mode': 'airplane', 'origin': 'Mumbai', 'destination': 'Hyderabad', 'seat_type': 'Premium Economy', 'ticket_price': 9900, 'selected_items': [['airplane Premium Economy', 9900]], 'amount': 9900}]"]
+            "[{'transport_mode': 'airplane', 'origin': 'Mumbai', 'destination': 'Hyderabad', 'seat_type': 'Sleeper Non-AC', 'ticket_price': 1270, 'selected_items': [['Bus Sleeper Non-AC', 1270]], 'amount': 9900}]"]
         elif category=="recurring_bills":
             options =['I want to recharge my mobile talktime',
                 'I want to pay for the 365 day plan',
